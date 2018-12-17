@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'holamundo.wsgi.application'
 #}
 DATABASES = {
 	'default':{
-		'ENGINE':'django.db.backends.postgresql',
+		'ENGINE':'django.db.backends.postgresql_psycopg2',
 		'NAME':'platzi',
 		'USER':'ingkstr',
 		'PASSWORD':'0413.maki',
